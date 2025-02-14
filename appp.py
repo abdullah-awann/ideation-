@@ -20,7 +20,7 @@ class Questionnaire:
         st.write("Answer the following questions to evaluate your game proposal.")
 
         self.ask_question("What is the genre of the game compared to previous projects?", 
-                          {"Same": 10, "Different": 5, "Slightly different": 7})
+                          {"Same test": 10, "Different": 5, "Slightly different": 7})
         
         self.follow_up("Different", "Why is this genre change beneficial?")
         
