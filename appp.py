@@ -22,7 +22,7 @@ class Questionnaire:
         self.score = min(self.score, 100)
 
     def run(self):
-        st.title("🎮 GD SOP Questionnaire")
+        st.title("🎮 GD Ideation SOP Questionnaire")
         st.write("Evaluate your game concept based on market demand, development feasibility, and strategy.")
 
         with st.form("questionnaire_form"):
